@@ -9,7 +9,7 @@ export default data = {
             "name": "Grand Theft Auto V",
             "released": "2013-09-17",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg",
+            "background_image": "https://cdn.zoomg.ir/2022/3/grand-theft-auto-v.jpg",
             "rating": 4.47,
             "rating_top": 5,
             "ratings": [
@@ -196,14 +196,14 @@ export default data = {
                     "name": "Action",
                     "slug": "action",
                     "games_count": 174036,
-                    "image_background": "https://media.rawg.io/media/games/b7b/b7b8381707152afc7d91f5d95de70e39.jpg"
+                    "image_background": "https://cdn.medal.tv/games/849/cover.jpg"
                 },
                 {
                     "id": 3,
                     "name": "Adventure",
                     "slug": "adventure",
                     "games_count": 133754,
-                    "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+                    "image_background": "https://styles.redditmedia.com/t5_3248p/styles/communityIcon_gbtgoaja4bg61.jpg?width=256&s=61c048ba2c38e5b0b6b9ba85536341e4522c75dc"
                 }
             ],
             "stores": [
@@ -460,7 +460,7 @@ export default data = {
             "name": "The Witcher 3: Wild Hunt",
             "released": "2015-05-18",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg",
+            "background_image": "https://cdn.zoomg.ir/2022/4/the-witcher-3-wild-hunt-new-gen.jpeg",
             "rating": 4.66,
             "rating_top": 5,
             "ratings": [
@@ -650,7 +650,7 @@ export default data = {
                     "name": "RPG",
                     "slug": "role-playing-games-rpg",
                     "games_count": 53102,
-                    "image_background": "https://media.rawg.io/media/games/c24/c24ec439abf4a2e92f3429dfa83f7f94.jpg"
+                    "image_background": "https://myket.ir/app-icon/6ad6f6bf-3983-4e28-a957-df725adc0b9d.png"
                 }
             ],
             "stores": [
@@ -915,7 +915,7 @@ export default data = {
             "name": "Portal 2",
             "released": "2011-04-18",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg",
+            "background_image": "https://cdn.zoomg.ir/2022/2/flmfarixsaabkm2.jpg",
             "rating": 4.61,
             "rating_top": 5,
             "ratings": [
@@ -1402,7 +1402,7 @@ export default data = {
             "name": "Tomb Raider (2013)",
             "released": "2013-03-05",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg",
+            "background_image": "https://cdn.zoomg.ir/2022/9/tomb-raider-2013.jpg",
             "rating": 4.05,
             "rating_top": 4,
             "ratings": [
@@ -1844,7 +1844,7 @@ export default data = {
             "name": "Counter-Strike: Global Offensive",
             "released": "2012-08-21",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg",
+            "background_image": "https://cdn.zoomg.ir/2022/12/cs-go-police-logo.jpg",
             "rating": 3.57,
             "rating_top": 4,
             "ratings": [
@@ -1980,7 +1980,7 @@ export default data = {
                     "name": "Shooter",
                     "slug": "shooter",
                     "games_count": 59353,
-                    "image_background": "https://media.rawg.io/media/games/995/9951d9d55323d08967640f7b9ab3e342.jpg"
+                    "image_background": "https://play-lh.googleusercontent.com/95m-3JBRhGpU0eGjoxhVjEwKDTx5vHGp9Ay11OfJNzRffPDlPK5UNEvW8k5uYYpvBw=w300"
                 }
             ],
             "stores": [
@@ -2255,7 +2255,7 @@ export default data = {
             "name": "Portal",
             "released": "2007-10-09",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg",
+            "background_image": "https://cdn.zoomg.ir/2022/9/portal-with-rtx.jpg",
             "rating": 4.51,
             "rating_top": 5,
             "ratings": [
@@ -2723,7 +2723,7 @@ export default data = {
             "name": "Left 4 Dead 2",
             "released": "2009-11-17",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg",
+            "background_image": "https://cdn.zoomg.ir/2016/01/left-4-dead-2.jpg",
             "rating": 4.09,
             "rating_top": 4,
             "ratings": [
@@ -3178,7 +3178,7 @@ export default data = {
             "name": "The Elder Scrolls V: Skyrim",
             "released": "2011-11-11",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg",
+            "background_image": "https://cdn.zoomg.ir/2016/06/The-Elder-Scrolls-V-Skyrim-1-Zoomg-1.jpg",
             "rating": 4.42,
             "rating_top": 5,
             "ratings": [
@@ -3623,7 +3623,7 @@ export default data = {
             "name": "Red Dead Redemption 2",
             "released": "2018-10-26",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg",
+            "background_image": "https://cdn.zoomg.ir/2021/1/steam-awards-2020-red-dead-redemption-2.jpg",
             "rating": 4.59,
             "rating_top": 5,
             "ratings": [
@@ -4115,7 +4115,7 @@ export default data = {
             "name": "BioShock Infinite",
             "released": "2013-03-26",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg",
+            "background_image": "https://cdn.zoomg.ir/2016/10/8baf12c2-af85-408b-a9e9-037f3236ca3d.jpg",
             "rating": 4.38,
             "rating_top": 5,
             "ratings": [
@@ -4621,7 +4621,7 @@ export default data = {
             "name": "Borderlands 2",
             "released": "2012-09-18",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg",
+            "background_image": "https://cdn.zoomg.ir/2019/8/8e0cd3f6-5f87-4cbb-82e3-eb980f9700c2.jpg",
             "rating": 4.01,
             "rating_top": 4,
             "ratings": [
@@ -5138,7 +5138,7 @@ export default data = {
             "name": "Life is Strange",
             "released": "2015-01-29",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg",
+            "background_image": "https://cdn.zoomg.ir/2021/3/life-is-stranged-collection.jpg",
             "rating": 4.11,
             "rating_top": 5,
             "ratings": [
@@ -5703,7 +5703,7 @@ export default data = {
             "name": "Half-Life 2",
             "released": "2004-11-16",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/b8c/b8c243eaa0fbac8115e0cdccac3f91dc.jpg",
+            "background_image": "https://cdn.zoomg.ir/2021/8/half-life-2-wallpaper-full-hd.jpg",
             "rating": 4.49,
             "rating_top": 5,
             "ratings": [
@@ -6158,7 +6158,7 @@ export default data = {
             "name": "BioShock",
             "released": "2007-08-21",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg",
+            "background_image": "https://cdn.zoomg.ir/2021/3/bioshock-big-daddy.jpg",
             "rating": 4.36,
             "rating_top": 5,
             "ratings": [
@@ -6566,7 +6566,7 @@ export default data = {
             "name": "Destiny 2",
             "released": "2017-09-06",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg",
+            "background_image": "https://cdn.zoomg.ir/2017/9/2e770772-01e0-4916-9df0-5a4a4ab2869c.jpg",
             "rating": 3.54,
             "rating_top": 4,
             "ratings": [
@@ -7201,7 +7201,7 @@ export default data = {
             "name": "Limbo",
             "released": "2010-07-21",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg",
+            "background_image": "https://cdn.zoomg.ir/2015/01/Limbo1.jpg",
             "rating": 4.15,
             "rating_top": 4,
             "ratings": [
@@ -7791,7 +7791,7 @@ export default data = {
             "name": "God of War (2018)",
             "released": "2018-04-20",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg",
+            "background_image": "https://cdn.zoomg.ir/2018/4/655e2238-e9fe-48fe-b3ee-121278af95fe.jpg",
             "rating": 4.58,
             "rating_top": 5,
             "ratings": [
