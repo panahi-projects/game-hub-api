@@ -1,6 +1,7 @@
 const express = require("express");
 const Auth = require("../middleware/auth");
 const Item = require("../models/item");
+const ApiResponse = require("../helpers/ApiResponse");
 
 const router = new express.Router();
 
@@ -25,7 +26,12 @@ router.get("/items/:id", async (req, res) => {
     if (!item) {
       return res.status(204).send({ error: "Item not found" });
     }
-    res.status(200).send(item);
+    res.status(200).send(
+      ApiResponse.notrmalizer({
+        results: item,
+        message: "fetched data successfully",
+      }, "single")
+    );
   } catch (error) {
     res.status(400).send(error);
   }
@@ -38,7 +44,13 @@ router.get("/items", async (req, res) => {
     if (!items.length) {
       return res.status(204).send([]);
     }
-    res.status(200).send(items);
+
+    res.status(200).send(
+      ApiResponse.notrmalizer({
+        results: items,
+        message: "fetched data list successfully",
+      }, "bulk")
+    );
   } catch (error) {
     res.status(400).send(error);
   }

@@ -48,7 +48,6 @@ const itemSchema = new mongoose.Schema(
           type: ObjectID,
           ref: "Platform",
           required: true,
-          strict: true
         },
       },
     ],
