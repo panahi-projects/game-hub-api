@@ -8578,7 +8578,7 @@ export default data = {
             "name": "DOOM (2016)",
             "released": "2016-05-13",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/c4b/c4b0cab189e73432de3a250d8cf1c84e.jpg",
+            "background_image": "https://cdn.zoomg.ir/2016/05/doom-2016.jpg",
             "rating": 4.38,
             "rating_top": 5,
             "ratings": [
@@ -8991,7 +8991,7 @@ export default data = {
             "name": "PAYDAY 2",
             "released": "2013-08-13",
             "tba": false,
-            "background_image": "https://media.rawg.io/media/games/73e/73eecb8909e0c39fb246f457b5d6cbbe.jpg",
+            "background_image": "https://cdn.zoomg.ir/2015/04/payday-3.jpg",
             "rating": 3.51,
             "rating_top": 4,
             "ratings": [

@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const ObjectID = mongoose.Schema.Types.ObjectId;
 
-const itemSchema = new mongoose.Schema(
+const gameSchema = new mongoose.Schema(
   {
     owner: {
       type: ObjectID,
@@ -13,7 +13,7 @@ const itemSchema = new mongoose.Schema(
       required: true,
       trim: true,
       unique: true,
-      strict: true
+      strict: true,
     },
     name: {
       type: String,
@@ -29,25 +29,37 @@ const itemSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    rating: {
+      type: Number
+    },
+    metacritic: {
+      type: Number
+    },
     genres: [
       {
-        genreId: {
+        _id: {
           type: ObjectID,
           ref: "Genre",
           required: true,
-          strict: true
-        },
-        slug: {
-          type: String,
         },
       },
     ],
     platforms: [
       {
-        platformId: {
+        _id: {
           type: ObjectID,
           ref: "Platform",
-          required: true,
+        },
+      },
+    ],
+    parent_platforms: [
+      {
+        platform: {
+          _id: {
+            type: ObjectID,
+            ref: "Parent_platforms",
+            required: true,
+          },
         },
       },
     ],
@@ -57,5 +69,5 @@ const itemSchema = new mongoose.Schema(
   }
 );
 
-const Item = mongoose.model("Item", itemSchema);
-module.exports = Item;
+const Game = mongoose.model("Game", gameSchema);
+module.exports = Game;

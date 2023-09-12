@@ -1,6 +1,7 @@
 const express = require("express");
 const Auth = require("../middleware/auth");
 const Genre = require("../models/genre");
+const ApiResponse = require("../helpers/ApiResponse");
 
 const router = new express.Router();
 
@@ -37,7 +38,15 @@ router.get("/genre", async (req, res) => {
     if (!genre.length) {
       return res.status(204).send([]);
     }
-    res.status(200).send(genre);
+    res.status(200).send(
+      ApiResponse.notrmalizer(
+        {
+          results: genre,
+          message: "fetched data list successfully",
+        },
+        "bulk"
+      )
+    );
   } catch (error) {
     res.status(400).send(error);
   }
@@ -46,17 +55,12 @@ router.get("/genre", async (req, res) => {
 //update an item
 router.put("/genre/:id", Auth, async (req, res) => {
   const fields = Object.keys(req.body);
-  console.log({fields});
-  const allowedFields = [
-    "name",
-    "slug",
-    "games_count",
-    "background_image",
-  ];
+  console.log({ fields });
+  const allowedFields = ["name", "slug", "games_count", "background_image"];
   const isValidOperation = fields.every((field) => {
     return allowedFields.includes(field);
   });
-  console.log({isValidOperation});
+  console.log({ isValidOperation });
   if (!isValidOperation) {
     return res.status(400).send({ error: "Invalid updates" });
   }
